@@ -29,7 +29,7 @@ The project also includes the following additional methods:
     greater than 6 ^ number.
 
 ## findAverageAfterChainingOperations
-    This method finds the fibonacci series of each number in the input sequence, 
+    This method finds the fibonacci of each number in the input sequence, 
     finds all the odd numbers from the resulting sequence, and returns their sum. 
     After performing this operation on each number in the input sequence, it finds 
     the average of the results.
