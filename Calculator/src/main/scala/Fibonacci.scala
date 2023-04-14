@@ -11,8 +11,10 @@ class Fibonacci extends Operator {
   }
 
   def fibonacciSeries(number: Int): Seq[Int] = {
-    if (number < 2) {
-      Seq.fill(number + 1)(number)
+    if (number == 0) {
+      Seq()
+    } else if (number == 1) {
+      Seq(0, 1)
     } else {
       val fibonacciSequence = Seq(0, 1)
       (2 to number).foldLeft(fibonacciSequence) { (sequence, i) =>
