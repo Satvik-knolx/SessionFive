@@ -83,7 +83,7 @@ object Driver extends App {
   }
 
   private val averageAfterChaining = new AverageAfterChaining
-  private val averageAfterChainingResult = averageAfterChaining.findAverageAfterChainingOperations(Seq(2, 4, 6))
+  private val averageAfterChainingResult = averageAfterChaining.findAverageAfterChainingOperations(Seq(1, 2, 3, 4, 5, 6))
   averageAfterChainingResult.onComplete {
     case Success(value) => println(s"Average after chaining operations : $value")
     case Failure(exception) => println(s"${exception.getMessage}")
