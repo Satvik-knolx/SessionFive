@@ -8,7 +8,7 @@ import scala.util.{Failure, Success}
 object Driver {
   def main(args: Array[String]): Unit = {
     // Path to the CSV file containing student grades
-    val path = "/home/knoldus/SessionFive/StudentsGrades/src/main/scala/studentgrades.csv"
+    val path = "/home/knoldus/SessionFive/src/main/scala/studentgrades.csv"
 
     // Parsing the CSV file and printing the student grades
     val parsedCsv = GradesCalculator.parseCsv(path)
